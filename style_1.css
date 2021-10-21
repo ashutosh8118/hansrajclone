@@ -1,0 +1,346 @@
+*{
+    margin: 0;padding: 0;
+}
+header nav .header_1{
+    border: 1px solid #efc600; width: auto; height: 30px;background-color: #efc600;
+}
+header nav .header_1 ul{
+    display: flex;
+    margin: 2px;
+    margin-top: -12px;
+    list-style: none;
+    margin-left: 40%;
+    font-size: 15px;
+    
+}
+header nav .header_1 ul li{
+    margin-left: 15px;
+}
+header nav .logos{
+    border: 1px solid white;
+    display: flex;
+    float: left;
+    width: 100%;
+    margin-left: -56px;
+    margin-top: 14px
+}
+header nav .logos .logo_hrc{
+    margin-left: 120px;
+}
+header nav .logos .name{
+    margin-left: 246px;
+}
+header nav .logos .name h1{
+    font-size: 1.8rem;
+    color: rgb(209, 81, 7);
+}
+header nav .logos .name p1{
+    color: rgb(7, 0, 0);
+    font-size: 25px;
+}
+header nav .logos .logo_2{
+    margin-left: 151px;
+}
+
+/* 
+header nav .opt{
+    border: 2px solid black;
+    width: 100%;
+    height: 68px;
+    margin-top: 145px;
+    background-color: #db2424;
+
+} */
+
+
+nav .wrapper{
+   
+    width: 100%;
+height: 58px;
+border: 1px #db4f0e;
+background-color: #443f3c;
+margin-left: 0px;
+margin-top: 148px;
+ }
+ nav  .wrapper ul{
+    list-style: none;
+    display: inline-flex;
+    
+ 
+ }
+ nav .wrapper ul li{
+       background: #db4f0e;
+       width: 134px;
+       border: 1px solid rgb(219, 93, 9);
+       height: 53px;
+        line-height: 50px;
+       color: #fff;
+       font-size: 14px;
+       /* position: relative; */
+       font-family: big john;
+       z-index: 999;
+       
+       
+ }
+ nav .wrapper ul li a{
+     text-decoration: none;
+     color: white;
+ }
+ nav .wrapper ul li:hover{
+    background: rgb(143, 59, 3);
+ 
+ }
+ nav .wrapper ul ul{
+    display: none;
+ }
+ nav  .wrapper ul li:hover > ul{
+    display: block;
+ }
+ nav  .wrapper ul ul ul{
+    margin-left: 100px;
+    margin-top: -52px;
+ }
+
+
+ /* .flex-all-text{
+    border: 1px tomato;
+    width: 100%;
+    height: 100px;
+    background-color: tomato;
+} */
+nav .flex-all-text .txt_1 ul li{
+    margin-left: 5vw;
+    
+}
+nav .flex-all-text .txt_1 ul li a{
+   color: white;
+}
+
+
+
+
+nav .flex-all-text .centerdiv a{
+  
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+   
+}
+nav .flex-all-text .centerdiv a i{
+    transition: all 0.3s linear;
+}
+nav .flex-all-text .centerdiv a:hover i{
+transform: scale(1.4);
+}
+nav .flex-all-text .fa-instagram{
+    color: #941d1d;
+}
+
+nav .flex-all-text .fa-youtube{
+    color: #dd2108;
+
+}
+nav .flex-all-text .fa-linkedin{
+    color: #cecdc1;
+}
+
+
+nav .centerdiv a{
+  
+    border-radius: 40px;
+    text-align: center;
+    margin: 12px;
+   
+}
+nav .centerdiv a i{
+    transition: all 0.3s linear;
+}
+nav .centerdiv a:hover i{
+transform: scale(1.4);
+}
+nav .fa-instagram{
+    color: #221513;
+}
+
+nav .fa-youtube{
+    color: #221513;
+
+}
+nav .fa-linkedin{
+    color: #cecdc1;
+}
+.carousel-indicators{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 15;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+}
+.carousel-item{
+    position: relative;
+    display: none;
+    float: left;
+    width: 100%;
+    margin-right: -100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: -webkit-transform .6s ease-in-out;
+    transition: transform .6s ease-in-out;
+    transition: transform .6s ease-in-out,-webkit-transform .6s ease-in-out;
+   
+    
+}
+.container{
+   display: inline;
+   padding: 120px 0px 0px 0px;
+}
+ .carousel-inner{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 500px;
+}
+
+#announcement {
+    border-bottom: 2px solid #f1f1f1;
+    padding: 40px 0 50px;
+    background: #ffffee;
+}
+
+
+
+    .announcement-box{
+        background-color: rgba(255,255,255,0.7);
+        z-index: 99;
+    }
+    @media screen and (min-width: 600px) {
+      .announcement-box{
+        position: absolute;
+        right: 5%;
+        top: 5%;
+      }
+
+        .announcement-box {
+            background-color: rgba(0,0,0,0.3);
+            width: 300px;
+        }
+        .announcement-box li a{
+            color: #fff;
+        }
+        .principal-desk-container{
+            height: 580px;
+        }
+    }
+    .principal-desk-container{
+        border:1px solid #b04400;
+        padding: 15px;
+		background:#fff;
+        box-shadow : 0 3px 10px 0 rgba(0,0,0,0.20);
+    }
+    .principal-desk-container .image-container{
+        width: 100%;
+        text-align: center;
+    }
+    .principal-desk-container .image-container .image{
+        width: 300px;
+        height: 201px;
+        margin: auto;
+		margin-bottom:10px;
+        overflow: hidden;
+    }
+    .principal-desk-container h2 {
+        color: #b04400;
+        font-size: 16px;
+        font-family: 'open_sansbold';
+        text-transform: uppercase;
+        margin-bottom: 25px;
+        position: relative;
+    }
+    .crcile-box:hover .sprite , .crcile-box:hover .sprite2 {
+        filter: grayscale(1) invert(1);
+    }
+    .crcile-box:hover span{
+        color: #fff;
+    }
+    .crcile-box:hover {
+        background-color: #e96004;
+        transition: 0.6s;
+    }
+    .crcile-box:hover .crcile{
+        border-color: #fff;
+    }
+    .crcile-box {
+        background-color: #efc600;
+        transition: 0.6s;
+        margin-bottom: 0;
+        padding: 11px;
+        height: 180px;
+        border-radius: 4px;
+    }
+	.crcile{
+		border: 3px solid #b04400;
+	}
+
+
+    .owl-carousel li a{
+        height: 180px;
+        background-color: #e5e5e5;
+    }
+    .owl-carousel li a img{
+        height: unset;
+    }
+    .footer-links{
+    	list-style-type: none;
+    	padding: 0;
+    }
+    .footer-links li{
+    	display: inline-block;
+    }
+    .footer-links li a{
+    	color: #fff;
+    }
+    .container{
+      max-width: unset;
+      width: 100%;
+    }
+    @media screen and (min-width: 600px) {
+      .container{
+        width: 85%;
+      }
+    } 
+
+h3{
+    margin-left: 379px;
+    color: #b14800;
+    font-size: 29px;
+}
+
+#img4, #img5, #img6{
+    width: 296px;
+    height: 220px;
+    padding: 14px;
+    border-radius: 34px;
+}
+.gallery{
+    margin-left: 17%;
+    margin-top: 63px;
+}
+
+#bell-icon img{
+    height: 47px;
+    width: 50px;
+    position: fixed;
+    z-index: 1;
+    top: 92%;
+    left: 95%;
+    box-shadow: #221513;
+    
+}

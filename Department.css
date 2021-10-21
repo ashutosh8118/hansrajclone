@@ -1,0 +1,355 @@
+*{
+    margin: 0;padding: 0;
+    font-family: 'Noto Sans Display', sans-serif;
+}
+header nav .header_1{
+    border: 1px solid #efc600; width: auto; height: 30px;background-color: #efc600;
+}
+header nav .header_1 ul{
+    display: flex;
+    margin: 2px;
+    margin-top: -12px;
+    list-style: none;
+    margin-left: 40%;
+    font-size: 15px;
+    
+}
+header nav .header_1 ul li{
+    margin-left: 15px;
+}
+header nav .logos{
+    border: 1px solid white;
+    display: flex;
+    float: left;
+    width: 100%;
+    margin-left: -56px;
+    margin-top: 14px
+}
+header nav .logos .logo_hrc{
+    margin-left: 120px;
+}
+header nav .logos .name{
+    margin-left: 246px;
+}
+header nav .logos .name h1{
+    font-size: 1.8rem;
+    color: rgb(209, 81, 7);
+}
+header nav .logos .name p1{
+    color: rgb(7, 0, 0);
+    font-size: 25px;
+}
+header nav .logos .logo_2{
+    margin-left: 151px;
+}
+
+nav .wrapper{
+   
+    width: 100%;
+height: 58px;
+border: 1px #db4f0e;
+background-color: #db4f0e;
+margin-left: 0px;
+margin-top: 148px;
+ }
+ nav  .wrapper ul{
+    list-style: none;
+    display: inline-flex;
+    
+ 
+ }
+ nav .wrapper ul li{
+       background: #db4f0e;
+       width: 134px;
+       border: 1px solid rgb(219, 93, 9);
+       height: 53px;
+        line-height: 50px;
+       color: #fff;
+       font-size: 14px;
+       /* position: relative; */
+       font-family: big john;
+       z-index: 999;
+       
+ }
+ nav .wrapper ul li a{
+     text-decoration: none;
+     color: white;
+ }
+ nav .wrapper ul li:hover{
+    background: rgb(143, 59, 3);
+ 
+ }
+ nav .wrapper ul ul{
+    display: none;
+ }
+ nav  .wrapper ul li:hover > ul{
+    display: block;
+ }
+ nav  .wrapper ul ul ul{
+    margin-left: 100px;
+    margin-top: -52px;
+ }
+
+
+ /* .flex-all-text{
+    border: 1px tomato;
+    width: 100%;
+    height: 100px;
+    background-color: tomato;
+} */
+nav .flex-all-text .txt_1 ul li{
+    margin-left: 5vw;
+    
+}
+nav .flex-all-text .txt_1 ul li a{
+   color: white;
+}
+
+
+
+
+nav .flex-all-text .centerdiv a{
+  
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+   
+}
+nav .flex-all-text .centerdiv a i{
+    transition: all 0.3s linear;
+}
+nav .flex-all-text .centerdiv a:hover i{
+transform: scale(1.4);
+}
+nav .flex-all-text .fa-instagram{
+    color: #941d1d;
+}
+
+nav .flex-all-text .fa-youtube{
+    color: #dd2108;
+
+}
+nav .flex-all-text .fa-linkedin{
+    color: #cecdc1;
+}
+
+
+nav .centerdiv a{
+  
+    border-radius: 40px;
+    text-align: center;
+    margin: 12px;
+   
+}
+nav .centerdiv a i{
+    transition: all 0.3s linear;
+}
+nav .centerdiv a:hover i{
+transform: scale(1.4);
+}
+nav .fa-instagram{
+    color: #221513;
+}
+
+nav .fa-youtube{
+    color: #221513;
+
+}
+nav .fa-linkedin{
+    color: #cecdc1;
+}
+
+#bell-icon img{
+    height: 47px;
+    width: 50px;
+    position: fixed;
+    z-index: 1;
+    top: 92%;
+    left: 95%;
+    box-shadow: #221513;
+    
+}
+#left-side1 {
+    border-bottom: 2px solid #f1f1f1;
+    padding: 10px 0 50px;
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -102px;
+    margin-left: -15px;
+    margin-top: 8px;
+}
+.col-md-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+.container{
+    width: 85%;
+}
+
+#left-side1 {
+    border-bottom: 2px solid #f1f1f1;
+    padding: 10px 0 50px;
+}
+.left-side1 {
+    border: 1px solid #e7c6ab;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px 0 rgb(0 0 0 / 20%);
+    padding: 12px;
+    position: relative;
+    margin-left: 20%;
+}
+.left-side1 h2 {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'open_sansbold';
+    color: #fff;
+    background: #b04400;
+    height: 46px;
+    line-height: 46px;
+    padding-left: 16px;
+    margin-top: 0;
+    border-radius: 7px;
+}
+.left-side1 ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 7px;
+}
+.left-side1 li {
+    padding: 10px 0 10px 5px;
+    background: #f2f2f2;
+    margin-bottom: 2px;
+}
+.left-side1 li a {
+    color: #000;
+    font-family: 'open_sanssemibold';
+    position: relative;
+    line-height: 1.5;
+    display: inline-block;
+    text-decoration: none;
+}
+a:active{
+    text-decoration: underline;
+
+}
+.page_content {
+    margin-bottom: 20px;
+    background: #fbfbfb;
+    border: 1px solid #eee;
+    padding: 15px;
+    box-shadow: 0 3px 10px 0 rgb(0 0 0 / 5%);
+    margin-left:7%;
+    margin-right: 1%;
+}
+.page_content h2 {
+    background: #eee;
+    border-bottom: 1px solid #ddd;
+    font-weight: 600;
+    font-size: 22px;
+    padding: 10px;
+    color: #B04400;
+}
+.page_content img {
+    vertical-align: middle;
+    border-style: none;
+    margin-top: 5px;
+    width: 100%;
+}
+.page_content p {
+    font-size: 14px;
+    padding: 10px 10px 0;
+    line-height: 22px;
+    margin-bottom: 0;
+    color: #333;
+    text-align: justify;
+}
+.col-md-8 {
+    -ms-flex: 0 0 66.666667%;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+}
+
+h3{
+    margin-left: 379px;
+    color: #b14800;
+    font-size: 29px;
+}
+
+#img4, #img5, #img6{
+    width: 290px;
+    height: 224px;
+    padding: 14px;
+    border-radius: 34px;
+}
+.gallery{
+    margin-left: 14%;
+    margin-top: 63px;
+    margin-bottom: 17px;
+}
+
+nav .flex-all-text .txt_1 ul li{
+    margin-left: 5vw;
+    
+}
+nav .flex-all-text .txt_1 ul li a{
+   color: white;
+}
+
+
+
+
+nav .flex-all-text .centerdiv a{
+  
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+   
+}
+nav .flex-all-text .centerdiv a i{
+    transition: all 0.3s linear;
+}
+nav .flex-all-text .centerdiv a:hover i{
+transform: scale(1.4);
+}
+nav .flex-all-text .fa-instagram{
+    color: #941d1d;
+}
+
+nav .flex-all-text .fa-youtube{
+    color: #dd2108;
+
+}
+nav .flex-all-text .fa-linkedin{
+    color: #cecdc1;
+}
+
+
+nav .centerdiv a{
+  
+    border-radius: 40px;
+    text-align: center;
+    margin: 12px;
+   
+}
+nav .centerdiv a i{
+    transition: all 0.3s linear;
+}
+nav .centerdiv a:hover i{
+transform: scale(1.4);
+}
+nav .fa-instagram{
+    color: #221513;
+}
+
+nav .fa-youtube{
+    color: #221513;
+
+}
+nav .fa-linkedin{
+    color: #cecdc1;
+}
